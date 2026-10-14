@@ -1,0 +1,32 @@
+{
+  "format": "avsim-studio/1",
+  "params": {},
+  "policy": {
+    "v0": 12.5,
+    "T": 1.6,
+    "a": 1.4,
+    "b": 2.0,
+    "s0": 2.5,
+    "cautionV": 7.5,
+    "cautionRange": 55.0,
+    "pedBuffer": 2.5,
+    "cutinLat": 2.15
+  },
+  "hazards": [
+    {
+      "type": "ped",
+      "side": "S",
+      "x": 98.0,
+      "v": 1.65,
+      "t0": 0.0,
+      "trig": 22.0
+    }
+  ],
+  "space": {
+    "h0_x": [92.0, 108.0],
+    "h0_v": [1.3, 2.1],
+    "h0_trig": [15.0, 28.0]
+  },
+  "exposure": 0.04,
+  "why": "Người đi bộ bất ngờ băng ngang đường ngoài vạch qua đường từ sau khu vực xe buýt/xe đỗ che khuất tầm nhìn (khu vực x = 92 đến 108 m). Theo nghiên cứu an toàn giao thông đô thị của NHTSA và SHRP 2 Naturalistic Driving Study, các tình huống người đi bộ băng cắt đột ngột ngoài giao lộ xảy ra với tần suất khoảng 0.04 lần mỗi chuyến đi nội đô (~1 lần trên 25 chuyến). Tốc độ người đi bộ/chạy nhanh dao động từ 1.3 đến 2.1 m/s, xuất hiện kích hoạt khi khoảng cách xe ta đến điểm giao cắt từ 15 đến 28 m."
+}

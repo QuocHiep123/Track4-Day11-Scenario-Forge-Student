@@ -41,9 +41,9 @@ def mssv():
         return os.environ["LAB11_MSSV"]
     with open(os.path.join(HERE, "REPORT.md"), encoding="utf-8") as f:
         first = next((ln for ln in f if ln.strip()), "")
-    m = re.match(r"\s*MSSV:[ \t]*(\d{6,12})\s*$", first)
+    m = re.match(r"\s*MSSV:[ \t]*([A-Za-z0-9]{6,12})\s*$", first)
     if not m:
-        sys.exit("Write your MSSV on the first line of REPORT.md, digits only (MSSV: 2xxxxxxx).")
+        sys.exit("Write your MSSV on the first line of REPORT.md (MSSV: 2xxxxxxx).")
     return m.group(1)
 
 
